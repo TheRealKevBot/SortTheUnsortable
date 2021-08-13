@@ -4,8 +4,8 @@
 
 
 function sortIt(arr) {
-	
-} 
+    return arr.sort()
+}
 
 console.log(sortIt([4, 1, 3]), [1, 3, 4])
 console.log(sortIt([[4], [1], [3]]), [[1], [3], [4]])
